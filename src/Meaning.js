@@ -5,7 +5,7 @@ export default function Meaning(props) {
     return (
         <div className="Meaning">
             <br />
-            <h5>{props.meanings.partOfSpeech}</h5>
+            <h3>{props.meanings.partOfSpeech}</h3>
             {props.meanings.definitions.map(function (definition, index)
             {
                 return (
