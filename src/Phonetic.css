@@ -8,12 +8,10 @@
     opacity: 0.5;
     font-size: 25px;
     line-height: 1.5;
+    margin-left: 10px;
 }
 
-.Phonetic .icon {
-    font-size: 23px;
-    color: var(--secondary-color);
-}
-.Phonetic .icon:hover {
-    color: var(--primary-color);
+.Phonetic {
+    display: flex;
+    flex-direction: row;
 }

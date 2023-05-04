@@ -1,0 +1,15 @@
+.AudioButton .button {
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    font-size: 23px;
+    color: var(--secondary-color);
+  }
+
+  button:hover {
+      color: var(--primary-color);
+  }

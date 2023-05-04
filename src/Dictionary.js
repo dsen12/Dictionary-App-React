@@ -50,7 +50,7 @@ export default function Dictionary(props) {
                         ></input>                    
                     </form>
                     <div className="suggestions">
-                        suggested words: growth, plant, integrity, kindness...
+                        suggested words: nature, sustainability, integrity, zen...
                     </div>
                 </section>
                 <Results results={results} />

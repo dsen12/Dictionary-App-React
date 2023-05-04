@@ -1,15 +1,19 @@
 import React from "react";
 import "./Phonetic.css";
+import AudioButton from "./AudioButton";
 
 
 export default function Phonetic(props) {
-    if (props.phonetics.text) {
+    console.log(props);
+    if (props.phonetics.audio && props.phonetics.text) {
         return (
             <div className="Phonetic">
-                <a href={props.phonetics.audio} target="_blank" rel="noreferrer"><i className="icon fas fa-volume-up"></i></a>
-                <span className="text">
+                <div className="audio">
+                <AudioButton audioUrl={props.phonetics.audio} />
+                </div>
+                <div className="text">
                 {props.phonetics.text};
-                </span>
+                </div>
             </div>
         );
     } else {

@@ -4,7 +4,7 @@
     border-radius: 20px;
     outline: 2px solid var(--secondary-color);
     outline-offset: -10px;
-    background-color: var(--tertiary-color);
+    background-color: #ced6ca92;
     box-shadow: 0 10px 20px rgb(0 0 0 / 10%);   
     margin: 0 auto;
     margin-bottom: 25px;
