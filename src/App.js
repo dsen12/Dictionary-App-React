@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary App</h1>
+            <h1>dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer>
           This project was coded by D.Sen and is <a href='https://github.com/dsen12/react-dictionary-app' target='_blank' rel="noreferrer">open-sourced on GitHub.</a> 

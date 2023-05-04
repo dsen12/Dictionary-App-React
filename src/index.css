@@ -1,0 +1,15 @@
+:root {
+    --primary-font-family: "poppins", sans-serif;
+    --primary-font-color: #253239;
+    --primary-color: #4E8D77;
+    --secondary-color: #253239;
+    --tertiary-color: #B9CFAF;
+    --accent-color: #FCFAEE;
+}
+
+body {
+    background: #FCFAEE;
+    background: linear-gradient(0deg, #FCFAEE, #B9CFAF);
+    height: 100%;
+    color: var(--primary-font-color);
+}

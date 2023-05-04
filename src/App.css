@@ -1,9 +1,28 @@
 .App h1 {
   text-align: center;
-  padding: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
 }
 
 .App footer {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
+  margin: 5px 0;
+  color: var(--primary-color);
+}
+
+.App a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.App a:hover {
+  text-decoration: underline;
+}
+
+.App img {
+  filter: saturate(0.4);
+  margin: 0 auto;
+  padding: 0;
 }

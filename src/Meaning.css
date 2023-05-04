@@ -1,0 +1,25 @@
+.Meaning .example {
+    opacity: 0.5;
+    text-transform: lowercase;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.Meaning h3 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--primary-color);
+}
+
+.Meaning hr {
+    margin: 5px 0 15px 0;
+    width: 100%;
+}
+
+.Meaning .definition {
+    font-size: 19px;
+    font-weight: 400px;
+    margin-top: 25px;
+}
