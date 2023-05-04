@@ -2,23 +2,42 @@
 .Dictionary section {
     padding: 50px;
     border-radius: 20px;
-    outline: 3px solid var(--secondary-color);
-    /*
+    outline: 2px solid var(--secondary-color);
     outline-offset: -10px;
-    */
     background-color: var(--tertiary-color);
     box-shadow: 0 10px 20px rgb(0 0 0 / 10%);   
     margin: 0 auto;
     margin-bottom: 25px;
-    max-width: 800px;
-    }
+    max-width: 850px;
+}
 
-.Dictionary input {
-    width: 100%;
-    border-radius: 5px;
-    padding: 6px 10px;
-    color: #333;
-    border: 1px solid var(--secondary-color);
+.Dictionary .search {
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    background-color: var(--accent-color);
+    padding-left: 10px;
+}
+
+.Dictionary .search-button {
+    height: 40px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    margin-left: 8px;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+
+.Dictionary .search-button:hover {
+    border: 2px solid  var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
   }
 
 .Dictionary .suggestions {
@@ -27,7 +46,8 @@
 }
 
 .Dictionary .subheading {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 500;
     margin-bottom: 10px;
+    text-transform: lowercase;
 }
