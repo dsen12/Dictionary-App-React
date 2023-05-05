@@ -4,7 +4,6 @@ import AudioButton from "./AudioButton";
 
 
 export default function Phonetic(props) {
-    console.log(props);
     if (props.phonetics.audio && props.phonetics.text) {
         return (
             <div className="Phonetic">
