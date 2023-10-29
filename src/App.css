@@ -11,7 +11,6 @@
   margin: 30px 0;
   letter-spacing: 3px;
   color: var(--primary-color);
-  outline: 2px black;
   text-shadow:
   -1px -1px 1px var(--secondary-color),
   1px -1px 1px var(--secondary-color),
